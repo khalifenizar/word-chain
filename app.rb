@@ -7,4 +7,15 @@ dict = Dictionary.from_file("/usr/share/dict/words")
 chainer = WordChain.new(dict)
 
 chainer.print_chain("cat", "dog")
+
+puts "\n-----------\n"
+
 chainer.print_chain("fish", "duct")
+
+puts "\n-----------\n"
+
+chainer.print_chain("ruby", "code")
+
+puts "\n-----------\n"
+
+chainer.print_chain("ruby", "skdj")
